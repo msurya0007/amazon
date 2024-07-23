@@ -1,0 +1,470 @@
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url('https://example.com/fonts/AmazonEmber-Regular.woff2') format('woff2'),
+        url('https://example.com/fonts/AmazonEmber-Regular.woff') format('woff'),
+        url('https://example.com/fonts/AmazonEmber-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url('https://example.com/fonts/AmazonEmber-Bold.woff2') format('woff2'),
+        url('https://example.com/fonts/AmazonEmber-Bold.woff') format('woff'),
+        url('https://example.com/fonts/AmazonEmber-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    position: relative;
+    margin: 0px;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(18, 25, 33);
+    gap: 0px;
+    padding: 2px 0px;
+
+    width: 100%;
+}
+
+.logo {
+    width: 120px;
+    height: 55px;
+    border-radius: 2px;
+    padding-right: 5px;
+    border: 1px solid rgb(18, 25, 33);
+}
+
+.logo:hover {
+    border: 1px solid white;
+}
+
+.india {
+    width: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cartLogo {
+    width: 40px;
+}
+
+.deli,
+.return {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.Hello,
+.Returns {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.Hyb {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    height: 14px;
+    color: rgb(204, 204, 204);
+}
+
+.update,
+.Acc,
+.orders {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid rgb(18, 25, 33);
+    gap: 3px;
+    padding: 12px 8px;
+
+    .locationIcon {
+        padding-top: 10px;
+    }
+}
+
+.delivery:hover {
+    border: 1px solid white;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.all {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+
+    padding: 1px 5px;
+
+    .Alls {
+        color: grey;
+        font-size: 12px;
+        padding: 10px 10px;
+        border: none;
+    }
+}
+
+.allcon:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.bar {
+    width: 600px;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin: -5px;
+    border-left: 1px solid rgba(128, 128, 128, 0.387);
+}
+
+.acc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    border-radius: 2px;
+    border: 1px solid rgb(18, 25, 33);
+}
+
+.helloo {
+    border-radius: 2px;
+    border: 1px solid rgb(18, 25, 33);
+    padding: 8px 5px;
+}
+
+.helloo:hover {
+    border: 1px solid white;
+}
+
+.eng {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 4px 5px 4px;
+
+    gap: 0px;
+    border-radius: 2px;
+    border: 1px solid rgb(18, 25, 33);
+}
+
+.eng:hover {
+    border: 1px solid white;
+}
+
+.EN {
+    padding-top: 1px;
+    padding-left: 2px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    border: 1px solid rgb(18, 25, 33);
+    border-radius: 2px;
+    padding: 8px;
+    gap: 20px;
+
+    .Carts {
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+}
+
+.cart:hover {
+    border: 1px solid white;
+}
+
+.return {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border: 1px solid rgb(18, 25, 33);
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+
+.return:hover {
+    border: 1px solid white;
+}
+
+.cate {
+    width: 100%;
+    background-color: rgb(35, 47, 62);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 800px;
+    padding: 0px 10px;
+    margin: 0px;
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+
+
+}
+
+.allcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 1px solid rgb(35, 47, 62);
+    padding: 10px 8px;
+}
+
+.allcon:hover {
+    border: 1px solid white;
+}
+
+.bars {
+    width: 22px;
+    height: 17px;
+
+}
+
+.all1 {
+    padding-top: 4px;
+}
+
+.category {
+    border-radius: 2px;
+    border: 1px solid rgb(35, 47, 62);
+    padding: 10px 5px;
+}
+
+.category:hover {
+    border: 1px solid white;
+}
+
+.freshcon,
+.primecon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border-radius: 2px;
+    border: 1px solid rgb(35, 47, 62);
+    padding: 10px 8px;
+}
+
+.freshcon:hover {
+    border: 1px solid white;
+}
+
+.primecon:hover {
+    border: 1px solid white;
+}
+
+.body1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.cards {
+    position: absolute;
+    top: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: rgba(0, 0, 0, 0.601);
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+}
+
+.cardheading {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 5px 0px;
+
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.row11,
+.row12,
+.row21,
+.row22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+    padding: 0px 8px;
+
+}
+
+.text {
+    width: 150px;
+    font-size: 14px;
+}
+
+.explore {
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 8px;
+    color: rgb(0, 113, 113);
+    font-weight: 400px;
+}
+
+.explore:hover {
+    color: rgb(199, 81, 31);
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    top: 130%;
+    gap: 10px;
+}
+
+.heading {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+}
+
+.scrollimages {
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px 20px;
+
+}
+
+.signincontainer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 170%;
+    color: black;
+    gap: 2px;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.see {
+    font-size: 12px;
+}
+
+.signin {
+    width: 220px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid rgb(242, 188, 54);
+    background: linear-gradient(to bottom, rgb(255, 216, 114), rgb(255, 195, 40));
+    height: 30px;
+}
+
+.newcust {
+    font-size: 11px;
+}
+
+.starthere {
+    text-decoration: none;
+}
+
+.starthere:hover {
+    color: rgb(199, 81, 31);
+}
